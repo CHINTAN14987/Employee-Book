@@ -1,0 +1,185 @@
+.displayed_Name_Heading {
+  font-family: Avenir;
+  font-size: 40px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.67px;
+  text-align: center;
+  color: #000;
+  margin: 2rem 0 0 0;
+}
+.Main_Container {
+  display: flex;
+  width: 95rem;
+}
+.Outer_Container_Wrapper {
+  background: #eff1f7;
+  display: flex;
+  align-items: center;
+  height: 50rem;
+}
+.Inner_Con_Wrapper {
+  width: 90%;
+  margin: auto;
+  background: white;
+  border-radius: 10px;
+}
+.Main_Container_Displayed_result {
+  width: 70% !important;
+}
+.rightSide_Container {
+  width: 30% !important;
+}
+.displayed_Person_JobDetails {
+  border-radius: 15px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.03);
+  background-color: #fff;
+  font-family: Avenir;
+  font-size: 20px;
+  letter-spacing: 0.71px;
+  margin: 2rem 0 2rem 0;
+  text-align: center;
+}
+.professional_Heading {
+  font-family: Avenir;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #000;
+  margin: 1rem 0;
+}
+.displayed_Results_Wrapper .image_Container {
+  height: 12rem;
+  width: 12rem;
+  margin-top: 2rem;
+}
+
+.displayed_Results_Wrapper .image_Container img {
+  width: 100%;
+  height: 100%;
+}
+.Professional_Summary {
+  font-family: Avenir;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #000;
+  width: 80%;
+  margin: 0 auto 3rem auto;
+}
+
+.displayed_Person_JobDetails span {
+  font-weight: 500;
+}
+
+.Candidate_Detail_Bottom_Wrapper {
+  display: flex;
+  font-family: Avenir;
+
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  width: 30rem;
+  max-width: 100%;
+  justify-content: space-evenly;
+
+  text-align: center;
+}
+
+.displayed_Person_JobDetails .point {
+  color: #6b75ca;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.71px;
+}
+
+.displayed_Person_JobDetails .location {
+  font-size: 20px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.71px;
+  text-align: center;
+  color: #6b75ca;
+}
+.displayed_Results_Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.displayed_Results_Wrapper button {
+  width: 10rem;
+  height: 3rem;
+  margin: 0 0 1rem 0;
+  padding: 14px 23px 14px 26px;
+  border-radius: 6px;
+  background-color: #44cb7c;
+  border: transparent;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.timeZone_Heading,
+.website_Heading {
+  font-size: 20px;
+  font-weight: 900;
+
+  letter-spacing: 0.75px;
+  color: #000;
+}
+
+.timeZone_Result,
+.website_Result {
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: #000;
+}
+
+.report_Wrap {
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 756px) {
+  .Main_Container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .Main_Container_Displayed_result {
+    width: 100% !important;
+  }
+  .rightSide_Container {
+    width: 100% !important;
+  }
+  .Outer_Container_Wrapper {
+    height: 100%;
+  }
+}

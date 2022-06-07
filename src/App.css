@@ -1,0 +1,9 @@
+.Content_Container {
+  display: flex;
+}
+
+@media screen and (max-width: 756px) {
+  .Content_Container {
+    flex-direction: column;
+  }
+}

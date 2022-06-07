@@ -1,0 +1,44 @@
+.accordian_Details_Wrapper .ant-collapse > .ant-collapse-item {
+  border-bottom: 0;
+  background-color: #ccc !important;
+}
+.heading_display_Wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.accordian_Details_Wrapper .ant-collapse-content {
+  background-color: #ccc !important;
+  font-family: Avenir !important;
+  font-size: 15px !important;
+  font-stretch: normal !important;
+  font-style: normal !important;
+  line-height: normal !important;
+  letter-spacing: normal !important;
+}
+
+.accordian_Details_Wrapper .ant-collapse-header-text {
+  font-family: Avenir !important;
+  font-size: 15px !important;
+  font-weight: 900 !important;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #3d3d3d !important;
+}
+.Companies_Details_Wrapper p {
+  font-family: Avenir;
+  font-size: 15px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000;
+}
+.Companies_Details_Wrapper button {
+  border: transparent;
+  background-color: #ccc;
+  font-size: 12px;
+}

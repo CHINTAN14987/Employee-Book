@@ -1,0 +1,19 @@
+.MenuWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 8rem;
+
+  align-items: center;
+}
+
+.MenuWrapper div {
+  margin: 1rem 0;
+}
+
+@media screen and (max-width: 756px) {
+  .MenuWrapper {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+}
